@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Use of Bootstrap Grid and Navigation</title>
+   
+    <!-- Styles -->
+    <style>
+         body {font-family: 'Questrial'; text-align: center;}
+        .navbar-brand img{max-width: 60px;}
+        .jumbotron { height: 500px;} 
+        .display-4  { color: saddlebrown; }
+        .col-md-4 img{max-width: 100%; padding: 0% 0% 3% 0%; display: block; margin-left: auto; margin-right: auto;}
+        .col-md-4 h2{padding: 3% 0% 3% 0%;text-align: center;}
+        .col-md-4 p{padding: 0% 0% 5% 0%; text-align: justify;}
+    </style>
+
+  </head>
+  
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-light bg-transparent">
+        <a class="navbar-brand" href="#">
+            <img src="little-dog-transparent.png" alt="Dog"/>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto"> <!-- ML to align navbar items to the right -->
+            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">About</a>
+            <a class="nav-item nav-link" href="#">Contact</a>
+          </div>
+        </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid text-saddlebrown" style="background-image:  url('header.png');">
+        <div class="container">
+          <h1 class="display-4">We need your help</h1>
+        </div>
+      </div>
+
+    <!-- Grid Structure -->
+    <div class="container-fluid"> 
+        <div class="row">
+            <div class="col-md-4 col-xs-12 order-md-1"> <img src="puppi.png" alt="Adopt"/></div>
+            <div class="col-md-4 col-xs-12 order-md-4"><h2>Adopt</h2><p>Here we have an ever-shifting list of beautiful dogs and puppies available through our pet adoption program. Please check our website daily for updates!</p></div>
+            <div class="col-md-4 col-xs-12 order-md-2"> <img src="pupppp.png" alt="Foster"/></div>
+            <div class="col-md-4 col-xs-12 order-md-5"><h2>Forster</h2><p>By opening up their homes to animals for short periods of time, foster families provide more room at the Center and allow us to take in more animals. Ultimately, our foster families enable us to save more lives and help more animals in need</p></div>
+            <div class="col-md-4 col-xs-12 order-md-3"> <img src="pupppiiii.png" alt="Donate"/></div>
+            <div class="col-md-4 col-xs-12 order-md-6"><h2>Donate</h2><p>Your donation will go a long way in making sure we can continue our mission of people helping animals and animals helping people.</p></div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
