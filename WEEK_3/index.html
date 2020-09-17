@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Icon Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Jumbotron, featurettes, lists and tables</title>
+
+    <style>
+
+        body {
+            background-color: #232b26;
+        }
+
+        a.navbar-brand img {
+            max-width: 60px;
+        }
+
+        .btn {
+background-color: rgb(121, 126, 126);
+        }
+
+        h1,
+        h2,
+        h4 {
+            font-family: 'Oswald';
+            text-align: left;
+            color: #ffffff;
+        }
+
+        h1 {
+            padding: 0% 0% 0% 0%;
+        }
+
+        h2 {
+            padding: 3% 0% 2% 0%;
+        }
+
+        h3,
+        p {
+            font-family: 'Helvetica Neue';
+            text-align: justify;
+            padding: 0% 0% 1% 0%;
+            color: #ffffff;
+        }
+
+        h3 {
+            padding: 0% 0% 1% 0%;
+        }
+
+        h5 {
+            font-size: medium;
+        }
+
+        p {
+            padding: 0% 0% 3% 0%;
+        }
+
+        .navbar {
+            background-color: #131918;
+            overflow: hidden;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .navbar-brand img {
+            max-width: 200px;
+        }
+
+        .nav-item {
+            font-family: 'Oswald';
+        }
+
+        .jumbotron {
+            background-size: cover;
+            background-position: center;
+        }
+
+        /* For Centered Vertical Alignment */
+        .align-items-center {
+            -ms-flex-align: center !important;
+            align-items: center !important;
+        }
+
+        /* For Centered Vertical Alignment */
+        .d-flex {
+            display: -ms-flexbox !important;
+            display: flex !important;
+        }
+
+        table tr {
+            border-bottom: thin solid;
+            border-top: thin solid;
+            border-color: #131918;
+
+
+        table td {
+            padding: 2vw;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid" style="background-image: url('header.jpg')">
+        <div class="container">
+            <h1 class="display-3">Espresso Bar</h1>
+            <h3 class="lead text-light">Experience love at first sip.</h3>
+            <a class="btn btn-lg" href="#menu" role="button">Explore Menu</a>
+        </div>
+    </div>
+
+    <!-- Featurettes -->
+    <div class="container">
+        <hr class="featurette-divider">
+        <div class="row featurette">
+            <div class="col-md-7 d-flex align-items-center">
+                <div>
+                    <h2 class="featurette-heading">Try our new seasonal drinks. <span class="text-muted">Iced beverages inspired by the aromatic flavors of the season.</span></h2>
+                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
+                        euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus,
+                        tellus ac cursus commodo.</p>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <img class="img-fluid" src="drink.jpg" alt="New Seasonal Drinks" />
+            </div>
+        </div>
+        <hr class="featurette-divider">
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2 d-flex align-items-center">
+                <div>
+                    <h2 class="featurette-heading">SIGNATURE
+                            BLENDS <span class="text-muted">Find your perfect match.</span>
+                    </h2>
+                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
+                        euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus,
+                        tellus ac cursus commodo.</p>
+                </div>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img class="img-fluid" src="happy hour.jpg" alt="Happy Hour Coffee 2x1" />
+            </div>
+        </div>
+        <hr class="featurette-divider">
+        <div class="row featurette">
+            <div class="col-md-7 d-flex align-items-center">
+                <div>
+                    <h2 class="featurette-heading">Visit our new location. <span class="text-muted">Espresso Bar in Santa Monica.</span></h2>
+                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
+                        euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus,
+                        tellus ac cursus commodo.</p>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <img class="img-fluid" src="shop.jpg" alt="New Location" />
+            </div>
+        </div>
+        <hr class="featurette-divider">
+    </div>
+
+    <!-- Promo Image 1 -->
+    <img class="img-fluid" src="coffeoclock.jpg" alt="Happy Hour Is Back" />
+
+    <!-- Table -->
+    <a id="menu"></a>  <div class="container">
+
+        <h1 style="font-size: 70px; text-align: center; padding: 2% 0% 3% 0;">MENU</h1>
+        <table>
+            <tr>
+                <td style="width:45vw">
+                    <h4>Brewed Coffee<h4>
+                            <h5 class="text-muted">Award winning coffee, ground daily & brewed fresh</h5>
+                </td>
+                <td style="width:15vw;">
+                    <h4>US$2.50</h4>
+                </td>
+                <td style="width:40vw"><img class="img-fluid" src="drew coffee.jpg" alt="Iced Coffee" /></td>
+            </tr>
+            <tr>
+                <td style="width:45vw">
+                    <h4>Cappuccino<h4>
+                            <h5 class="text-muted">Prepared with our house coffee beans and steamed milk foam.</h5>
+                </td>
+                <td style="width:15vw">
+                    <h4>US$4.25</h4>
+                </td>
+                <td style="width:40vw"><img class="img-fluid" src="cappucino.jpg" alt="Cappuccino" /></td>
+            </tr>
+            <tr>
+                <td style="width:45vw">
+                    <h4>Iced Coffee<h4>
+                            <h5 class="text-muted">Our original and refresshing Iced Coffee.</h5>
+                </td>
+                <td style="width:15vw">
+                    <h4>US$3.15</h4>
+                </td>
+                <td style="width:40vw"><img class="img-fluid" src="iced coffee.jpg" alt="Bagels" /></td>
+            </tr>
+            <tr>
+                <td style="width:45vw">
+                    <h4>Espresso<h4>
+                            <h5 class="text-muted">Our signature dark roast espresso shot.</h5>
+
+                </td>
+                <td style="width:15vw">
+                    <h4>US$2.95</h4>
+                </td>
+                <td style="width:40vw"><img class="img-fluid" src="espresso.jpg" alt="Muffins" /></td>
+            </tr>
+        </table>
+
+    </div>
+
+
+    <!-- Promo Image 2 -->
+    <img style="padding: 2% 0px 60px 0px;" class="img-fluid" src="assets/promo2.jpg"
+        alt="New Italian Roasted Coffee Beans" />
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <a class="navbar-brand" href="#">
+            <img src="logo.png" alt="Espresso Bar Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav mx-auto">
+                <a class="nav-item nav-link active" href="#">HOME<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#">ABOUT</a>
+                <a class="nav-item nav-link " href="#">MENU</a>
+                <a class="nav-item nav-link " href="#">LOCATIONS</a>
+            </div>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-facebook"></i></a></li>
+                <li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-twitter"></i></a></li>
+                <li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
