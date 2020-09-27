@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <!-- Icon Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <!-- Styles -->
+    <style>
+       .navbar-brand img {
+           max-width: 200px;
+           }
+
+       body {
+           background-color: black;
+           text-align: justify; 
+           font-size: 20px;
+           }
+
+       h1, h2, h4 {
+           font-family: 'Space Mono', monospace;
+           color: #3C7373;
+           
+       }
+
+       p {
+         font-family: 'Roboto', sans-serif;
+         color: #FFFFFF;
+         }
+
+      .container {
+           margin-top: 200px;
+         }
+
+      .text-info {
+         color: #3C7373 !important;
+         }
+
+       .text-secondary {
+         color: #D9C8A9 !important;
+         }
+
+       .jumbotron.jumbotron-fluid {
+           Height: 500px;
+
+           }
+        .btn-warning.btn-lg.text-center.mt-3{ 
+               Margin-top: 100px;
+           }
+
+      .btn {
+        background-color:#4162A6;
+      }
+       
+        .navbar-nav.mx-auto {
+            font-family: 'Roboto', sans-serif;
+        }
+            
+     .card-deck {
+
+       margin-top: 100px;
+     }
+    </style>
+
+    <title>Customizing Bootstrap</title>
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark" style="background-color:black;">
+        <a class="navbar-brand" href="#">
+            <img src="logo.jpg" alt="Tekisnka museet Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav mx-auto">
+                <a class="nav-item nav-link active" href="#"><h5><strong>HOME</strong></h5></span></a>
+                <a class="nav-item nav-link" href="https://webshop.tekniskamuseet.se/" target="_blank"><h5><strong>SHOP</strong></h5></a>
+                <a class="nav-item nav-link" href="https://www.tekniskamuseet.se/besok/kop-biljett/" target="_blank"><h5><strong>TICKETS</strong></h5></a>
+                <a class="nav-item nav-link" href="https://www.tekniskamuseet.se/lar-dig-mer/" target="_blank"><h5><strong>LERN</strong></h5></a>
+            </div>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="nav-item"><a href="#" class="nav-link"><h5><i class="fa fa-facebook"></i></h5></a></li>
+                <li class="nav-item"><a href="#" class="nav-link"><h5><i class="fa fa-twitter"></i></h5></a></li>
+                <li class="nav-item"><a href="#" class="nav-link"><h5><i class="fa fa-instagram"></i></h5></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid" style="background-image: url('header.jpg'); background-size:cover; background-position: center;" alt="Header">
+        <div class="container">
+            <h1 class="display-4 text-info text-center">
+                    .</h1>
+            <div class="text-center">
+                <a class="btn btn-lg text-center mt-3" href="#" role="button">BUY TICKETS</a>
+              </div>
+        </div>
+    </div>
+
+
+
+    <!-- Card Deck -->
+    
+    <div class="container-fluid">
+        <h1 class="display-5 text-info text-center">UPCOMING EVENTS!</h1>
+        <div class="card-deck">
+        <div class="col-sm-12 col-md-6 col-lg-3 mb-5">
+        <div class="card h-100">
+            <img src="robot.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title text-info"><strong>DIGITAL@IDAG</strong></h4>
+              <body class="card-text">Digital@idag är en temadag för att inspirera fler människor till att kunna och vilja vara med i den digitala utvecklingen över hela landet. Vi gör detta tillsammans, och ju fler vi är desto mer når vi ut och desto större nätverk skapar vi.</body>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 1 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 mb-5">
+        <div class="card h-100">
+          <img src="images.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title text-info"><strong>MOVING TO MARS</strong></h4>
+            <body class="card-text">En resa från jorden till Mars tar sju månader. Lika lång tid sträcker sig vår kampanj för att ladda upp inför vår nästa stora utställning – Moving to Mars.</body>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 mb-5">
+        <div class="card h-100">
+          <img src="sss.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title text-info"><strong>LABBFIX</strong></h4>
+            <body class="card-text">Följ med Denice Fix som labbar för fullt. Det är kul att experimentera och vi tycker att alla ska testa åtminstone ett labb. Här möter du en värld fylld av Möbiusband, marshmallows, osynlighet och tricks.</body>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 5 mins ago</small>
+          </div>
+        </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 mb-5">
+        <div class="card h-100">
+            <img src="event.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title text-info"><strong>GISSA SAKEN</strong></h4>
+              <body class="card-text">Titta på vårt nya program ”Gissa Saken”. Programmet går ut på att ni som tittar ska avgöra vem som ljuger och vem som talar sanning kring våra samlingar och föremål. Den som gissar rätt kan vinna årskort till museet när vi öppnar igen och ett startkit för att själv börja arkivera. </body>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 7 mins ago</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Article -->
+    <div class="container">
+        <img src="MARS.jpg" class="img-fluid" alt="Mars">
+    <article>
+        <h2 class="display-3 text-info text-center mb-3">A DAY IN SPACE!</h2>
+        <h2 class="text-center mb-4 text-secondary">Join us on exciting Jupiter adventures!</h2>
+        <p><strong>Saturday September 26th. Stockholm</strong> - Det kommer att bli en rymddag att minnas då vi kommer visa rymdinstrument som Institutet för rymdfysik, IRF, byggt för NASA:s rymdfarkost Cassini, ha flera rymdforskare med oss på plats, även Rymdsällskap och rymddans med Kulturskolan! </p>
+        <p>Vår restaurang har under helgen ett café – ett satellitcafé – öppet även i våra serviceytor, för att ytterligare sprida ut våra besökare i våra stora ytor. Där serveras bland annat pannkakor, varmkorv, kaffe och bakverk. I vår ordinarie restaurang finns precis som vanligt det vanliga lunchutbudet.</p>
+        <p>Den 15 september 2017 hade Cassini avverkat totalt 22 passager rakt igenom det lilla gap som finns mellan Saturnus innersta synliga ring och samtidigt mycket nära planeten Saturnus. Så nära att den passerade rakt igenom de övre delarna av Saturnus atmosfär.  </p>
+        <p>Under Astronomins dag finns möjligheten att se en kopia av IRF:s instrument från Cassini, höra mer om rymdäventyret och ta del av de unika forskningsresultaten och träffa flera rymdforskare. IRF kommer överlämna instrumentet kl.11.15 till Tekniska museets samlingar som en del av svensk rymdhistoria. Det är första gången någonsin som instrumentet visas upp för allmänheten. Missa inte detta! (livesänds via Astronomins dag och natt).</p>
+        <p class="lead mb-5">Visste du att Sverige och Institutet för rymdfysik, IRF, även ansvarar för två av tio instrument på den europeiska rymdorganisationen ESA:s kommande Jupiterfarkost? De har de kryptiska namnen PEP (Particle Environment Package) och RPWI (Radio & Plasma Wave Investigation) och båda är ett resultat av omfattande internationella samarbeten koordinerade av IRF i Kiruna respektive Uppsala.</p>
+  </article>
+</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/98ca3b621f.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
