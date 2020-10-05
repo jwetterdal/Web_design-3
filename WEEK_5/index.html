@@ -1,0 +1,648 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Icon Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Styles -->
+    <style>
+        .navbar-brand img {
+            max-width: 100px;
+        }
+        
+        .jumbotron.jumbotron-fluid {
+            height: 500px;
+        }
+
+        .btn.btn-lg.btn-warning.text-center.text-body.float-right, .btn1.btn.btn-warning.btn-lg.float-right {
+         background-color: rgb(127, 163, 138) !important;
+         font-family: 'Roboto', sans-serif;
+        
+        }
+        h1.text-body.text-right {
+            font-size: 20px;
+        }
+
+        .text-body {
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        h3 {
+            text-align: right;
+            margin: 10px 0px 0px 0px;
+        }
+
+        h4 {
+            display: inline-block;
+            margin: 20px 30px 20px 0px;
+        }
+
+        h5 {
+            margin: 20px 0px 0px 0px;
+        }
+
+        .btn1 {
+            margin: 0px 15px 50px 0px;
+        }
+
+        .btn2,
+        .btn3,
+        .btn4,
+        .btn5,
+        .btn6 {
+            background-color: black;
+            margin: 15px 0px 0px 0px;
+        }
+
+        .bg-dark {
+            opacity: .3;
+        }
+    </style>
+
+    <title>Interactive Forms</title>
+</head>
+
+<body>
+    <header></header>
+    <main>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-md navbar-light" style="background-color:white;">
+            <a class="navbar-brand" href="#">
+                <img src="logo.png" alt="Kaktus Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav mx-auto">
+                    <a class="nav-item nav-link" href="#"><strong>HOME</strong></span></a>
+                    <a class="nav-item nav-link" href="#"><strong>ABOUT</strong></span></a>
+                    <a class="nav-item nav-link" href="#" target="_blank"><strong>SHOP</strong></a>
+                    <a class="nav-item nav-link" href="h#" target="_blank"><strong>LOCATION</strong></a>
+                    <a class="nav-item"><a href="#" class="nav-link active"><i class="fa fa-shopping-cart"></i></a></li>
+                </div>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-facebook"></i></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-twitter"></i></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Jumbotron -->
+        <div class="jumbotron jumbotron-fluid"
+            style="background-image: url('header.jpg'); background-size:cover; background-position: center;"
+            alt="Model">
+            <div class="container">
+                <h1 class="display-1 text-light text-center"><strong>SHOPPING CHART
+                </strong></h1>
+            </div>
+        </div>
+
+        <!-- Card Deck -->
+        <div class="container-fluid">
+            <div class="card-deck">
+                <div class="col-sm-12 col-md-6 col-lg-3 mb-5">
+                    <div class="card h-100">
+                        <img src="plant.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title text-body"><strong>Redcap</strong></h3>
+                        </div>
+                        <div class="card-footer">
+                            <h1 class="text-body text-right">$20</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 mb-5">
+                    <div class="card h-100">
+                        <img src="plants3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title text-body"><strong>ZefraHauerthu</strong></h3>
+                        </div>
+                        <div class="card-footer">
+                            <h1 class="text-body text-right">$15</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 mb-5">
+                    <div class="card h-100">
+                        <img src="plants6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title text-body"><strong>Xoconoitte</strong></h3>
+                        </div>
+                        <div class="card-footer">
+                            <h1 class="text-body text-right">$15</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 mb-5">
+                    <div class="card h-100">
+                        <img src="plants 4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title text-body"><strong>Caroeroe</strong></h3>
+                        </div>
+                        <div class="card-footer">
+                            <h1 class="text-body text-right">$18</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Checkout Button -->
+        <div class="container-fluid">
+            <button type="button" class=" btn1 btn btn-warning btn-lg float-right">
+                <h2>Proceed To Checkout</h2>
+            </button>
+        </div>
+
+        <!-- Form -->
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <form class="needs-validation" novalidate>
+                        <h1 class="display-3">Checkout</h1>
+                        <!-- Shipping Address -->
+                        <div class="shipping">
+                            <h4>Shipping Address</h4>
+                            <div class="form-row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="validationFirstName">First Name</label>
+                                    <input type="text" class="form-control" id="validationFirstName"
+                                        placeholder="First Name" required>
+                                    <div class="invalid-feedback">
+                                        Please provide your first name.
+                                    </div>
+                                    <div class="valid-feedback">
+                                        Looks good!
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="validationLastName">Last Name</label>
+                                    <input type="text" class="form-control" id="validationLastName"
+                                        placeholder="Last Name" required>
+                                    <div class="invalid-feedback">
+                                        Please provide your last name.
+                                    </div>
+                                    <div class="valid-feedback">
+                                        Looks good!
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="validationAddress">Address</label>
+                                    <input type="text" class="form-control" id="validationAddress"
+                                        placeholder="1234 Main St" required>
+                                    <div class="invalid-feedback">
+                                        Please provide your street address.
+                                    </div>
+                                    <div class="valid-feedback">
+                                        Looks good!
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="validationAddress2">Address 2</label>
+                                    <input type="text" class="form-control" id="validationAddress2"
+                                        placeholder="Apartment, studio, or floor">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="validationCity">City</label>
+                                    <input type="text" class="form-control" id="validationCity" placeholder="City"
+                                        required>
+                                    <div class="invalid-feedback">
+                                        Please provide a valid city.
+                                    </div>
+                                    <div class="valid-feedback">
+                                        Looks good!
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mb-3">
+                                    <label for="validationState">State</label>
+                                    <select class="custom-select" id="validationState" required>
+                                        <option selected disabled value="">Choose...</option>
+                                        <option value="1">AL</option>
+                                        <option value="2">AK</option>
+                                        <option value="3">AZ</option>
+                                        <option value="4">AR</option>
+                                        <option value="5">CA</option>
+                                        <option value="6">CO</option>
+                                        <option value="7">CT</option>
+                                        <option value="8">DE</option>
+                                        <option value="9">FL</option>
+                                        <option value="10">GA</option>
+                                        <option value="11">HI</option>
+                                        <option value="12">ID</option>
+                                        <option value="13">IL</option>
+                                        <option value="14">IN</option>
+                                        <option value="15">IA</option>
+                                        <option value="16">KS</option>
+                                        <option value="17">KY</option>
+                                        <option value="18">LA</option>
+                                        <option value="19">ME</option>
+                                        <option value="20">MD</option>
+                                        <option value="21">MA</option>
+                                        <option value="22">MI</option>
+                                        <option value="23">MN</option>
+                                        <option value="24">MS</option>
+                                        <option value="25">MO</option>
+                                        <option value="26">MT</option>
+                                        <option value="27">NE</option>
+                                        <option value="28">NV</option>
+                                        <option value="29">NH</option>
+                                        <option value="30">NJ</option>
+                                        <option value="31">NM</option>
+                                        <option value="32">NY</option>
+                                        <option value="33">NC</option>
+                                        <option value="34">ND</option>
+                                        <option value="35">OH</option>
+                                        <option value="36">OK</option>
+                                        <option value="37">OR</option>
+                                        <option value="38">PA</option>
+                                        <option value="39">RI</option>
+                                        <option value="40">SC</option>
+                                        <option value="41">SD</option>
+                                        <option value="42">TN</option>
+                                        <option value="43">TX</option>
+                                        <option value="44">UT</option>
+                                        <option value="45">VT</option>
+                                        <option value="46">VA</option>
+                                        <option value="47">WA</option>
+                                        <option value="48">WV</option>
+                                        <option value="49">WI</option>
+                                        <option value="50">WY</option>
+                                    </select>
+                                    <div class="invalid-feedback">
+                                        Please select a valid state.
+                                    </div>
+                                    <div class="valid-feedback">
+                                        Looks good!
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mb-3">
+                                    <label for="validationZip">Zip</label>
+                                    <input type="text" class="form-control" id="validationZip" placeholder="Zip"
+                                        required>
+                                    <div class="invalid-feedback">
+                                        Please provide a valid zip.
+                                    </div>
+                                    <div class="valid-feedback">
+                                        Looks good!
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn2 btn btn-lg text-center text-light float-left" type="button">
+                                <h2>Back</h2>
+                            </button>
+                            <button class="btn3 btn btn-lg text-center text-light float-right" type="submit">
+                                <h2>Next</h2>
+                            </button>
+                        </div>
+                        <!-- Billing Address -->
+                        <div class="billing">
+                            <h4>Billing Address</h4>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1"
+                                    onclick="copyInfo(this.form)">
+                                <label class="form-check-label" for="inlineCheckbox1">(Same As Shipping)</label>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="validationFirstNameB">First Name</label>
+                                    <input type="text" class="form-control" id="validationFirstNameB"
+                                        placeholder="First Name" required>
+                                    <div class="invalid-feedback">
+                                        Please provide your first name.
+                                    </div>
+                                    <div class="valid-feedback">
+                                        Looks good!
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="validationLastNameB">Last Name</label>
+                                    <input type="text" class="form-control" id="validationLastNameB"
+                                        placeholder="Last Name" required>
+                                    <div class="invalid-feedback">
+                                        Please provide your last name.
+                                    </div>
+                                    <div class="valid-feedback">
+                                        Looks good!
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="validationAddressB">Address</label>
+                                    <input type="text" class="form-control" id="validationAddressB"
+                                        placeholder="1234 Main St" required>
+                                    <div class="invalid-feedback">
+                                        Please provide your street address. <address></address>
+                                    </div>
+                                    <div class="valid-feedback">
+                                        Looks good!
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="validationAddress2B">Address 2</label>
+                                    <input type="text" class="form-control" id="validationAddress2B"
+                                        placeholder="Apartment, studio, or floor">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="validationCityB">City</label>
+                                    <input type="text" class="form-control" id="validationCityB" placeholder="City"
+                                        required>
+                                    <div class="invalid-feedback">
+                                        Please provide a valid city.
+                                    </div>
+                                    <div class="valid-feedback">
+                                        Looks good!
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mb-3">
+                                    <label for="validationStateB">State</label>
+                                    <select class="custom-select" id="validationStateB" required>
+                                        <option selected disabled value="">Choose...</option>
+                                        <option value="1">AL</option>
+                                        <option value="2">AK</option>
+                                        <option value="3">AZ</option>
+                                        <option value="4">AR</option>
+                                        <option value="5">CA</option>
+                                        <option value="6">CO</option>
+                                        <option value="7">CT</option>
+                                        <option value="8">DE</option>
+                                        <option value="9">FL</option>
+                                        <option value="10">GA</option>
+                                        <option value="11">HI</option>
+                                        <option value="12">ID</option>
+                                        <option value="13">IL</option>
+                                        <option value="14">IN</option>
+                                        <option value="15">IA</option>
+                                        <option value="16">KS</option>
+                                        <option value="17">KY</option>
+                                        <option value="18">LA</option>
+                                        <option value="19">ME</option>
+                                        <option value="20">MD</option>
+                                        <option value="21">MA</option>
+                                        <option value="22">MI</option>
+                                        <option value="23">MN</option>
+                                        <option value="24">MS</option>
+                                        <option value="25">MO</option>
+                                        <option value="26">MT</option>
+                                        <option value="27">NE</option>
+                                        <option value="28">NV</option>
+                                        <option value="29">NH</option>
+                                        <option value="30">NJ</option>
+                                        <option value="31">NM</option>
+                                        <option value="32">NY</option>
+                                        <option value="33">NC</option>
+                                        <option value="34">ND</option>
+                                        <option value="35">OH</option>
+                                        <option value="36">OK</option>
+                                        <option value="37">OR</option>
+                                        <option value="38">PA</option>
+                                        <option value="39">RI</option>
+                                        <option value="40">SC</option>
+                                        <option value="41">SD</option>
+                                        <option value="42">TN</option>
+                                        <option value="43">TX</option>
+                                        <option value="44">UT</option>
+                                        <option value="45">VT</option>
+                                        <option value="46">VA</option>
+                                        <option value="47">WA</option>
+                                        <option value="48">WV</option>
+                                        <option value="49">WI</option>
+                                        <option value="50">WY</option>
+                                    </select>
+                                    <div class="invalid-feedback">
+                                        Please select a valid state.
+                                    </div>
+                                    <div class="valid-feedback">
+                                        Looks good!
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mb-3">
+                                    <label for="validationZipB">Zip</label>
+                                    <input type="text" class="form-control" id="validationZipB" placeholder="Zip"
+                                        required>
+                                    <div class="invalid-feedback">
+                                        Please provide a valid zip.
+                                    </div>
+                                    <div class="valid-feedback">
+                                        Looks good!
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn4 btn btn-lg text-center text-light float-left" type="button">
+                                <h2>Back</h2>
+                            </button>
+                            <button class="btn5 btn btn-lg text-center text-light float-right" type="submit">
+                                <h2>Next</h2>
+                            </button>
+                        </div>
+                        <!-- Payment -->
+                        <div class="payment">
+                            <h4>Payment Information</h4>
+                            <div class="form-row">
+                                <div class="col-md-8 mb-3">
+                                    <label for="validationCardholder">Cardholder's Name (As it appears on card)</label>
+                                    <input type="text" class="form-control" id="validationCardholder"
+                                        placeholder="Name on Card" required>
+                                    <div class="invalid-feedback">
+                                        Please provide the Cardholder's Name.
+                                    </div>
+                                    <div class="valid-feedback">
+                                        Looks good!
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <label for="validationExpiration">Expiration Date</label>
+                                    <input type="text" class="form-control" id="validationExpiration"
+                                        placeholder="MM/YYYY" required>
+                                    <div class="invalid-feedback">
+                                        Please provide card's Expiration Date.
+                                    </div>
+                                    <div class="valid-feedback">
+                                        Looks good!
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-md-8 mb-3">
+                                    <label for="validationCard">Credit/Debit Card Number</label>
+                                    <input type="text" class="form-control" id="validationCard"
+                                        placeholder="9999 9999 9999 9999" required>
+                                    <div class="invalid-feedback">
+                                        Please provide your credit or debit card number.
+                                    </div>
+                                    <div class="valid-feedback">
+                                        Looks good!
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <label for="validationCVV">Security Code</label>
+                                    <input type="text" class="form-control" id="validationCVV" placeholder="CVV"
+                                        required>
+                                    <div class="invalid-feedback">
+                                        Please provide your card's CVV.
+                                    </div>
+                                    <div class="valid-feedback">
+                                        Looks good!
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                    <label class="form-check-label" for="invalidCheck">
+                                        Agree to terms and conditions
+                                    </label>
+                                    <div class="invalid-feedback">
+                                        You must agree before submitting.
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn6 btn btn-lg text-center text-light float-left" type="button">
+                                <h2>Back</h2>
+                            </button>
+                        </div>
+                        <div class="buy">
+                            <button class="btn btn-lg btn-warning text-center text-body float-right"
+                                style="margin-top: 15px;" type="submit">
+                                <h2>Buy</h2>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <!-- Buttons -->
+
+        </div>
+    </main>
+    <footer></footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <!-- JQuery For Show and Hide Buttons -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Navigation Buttons with Show and Hide Functionality -->
+    <script>
+        $(document).ready(function () {
+            $("form").hide();
+            $(".btn2").hide();
+            $(".btn1").click(function () {
+                $("form").show();
+                $(".btn1").hide();
+                $(".btn2").show();
+                $(".card-deck").hide();
+                $(".billing").hide();
+                $(".buy").hide();
+                $(".payment").hide();
+            });
+            $(".btn2").click(function () {
+                $("form").hide();
+                $(".btn2").hide();
+                $(".btn1").show();
+                $(".card-deck").show();
+            });
+            $(".btn4").click(function () {
+                $(".shipping").show();
+                $(".billing").hide();
+                $(".payment").hide();
+                $(".btn2").show();
+                $(".btn4").hide();
+                $(".btn5").hide();
+            });
+            $(".btn5").click(function () {
+                $(".payment").show();
+                $(".billing").hide();
+                $(".btn4").hide();
+                $(".btn5").hide();
+                $(".btn6").show();
+                $(".buy").show();
+            });
+            $(".btn6").click(function () {
+                $(".payment").hide();
+                $(".billing").show();
+                $(".btn4").show();
+                $(".btn5").show();
+                $(".btn6").hide();
+                $(".buy").hide();
+            });
+
+        });
+    </script>
+
+    <!-- Copy and Clear Form Fields -->
+    <script>
+        function copyInfo(form) {
+            var checked = form.inlineCheckbox1.checked;
+            form.validationFirstNameB.value = checked ? form.validationFirstName.value : "";
+            form.validationLastNameB.value = checked ? form.validationLastName.value : "";
+            form.validationAddressB.value = checked ? form.validationAddress.value : "";
+            form.validationAddress2B.value = checked ? form.validationAddress2.value : "";
+            form.validationCityB.value = checked ? form.validationCity.value : "";
+            form.validationStateB.value = checked ? form.validationState.value : "";
+            form.validationZipB.value = checked ? form.validationZip.value : "";
+        }
+    </script>
+
+
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function () {
+            'use strict';
+            window.addEventListener('load', function () {
+                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                var forms = document.getElementsByClassName('needs-validation');
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(forms, function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                        $(".btn3").click(function () {
+                            $(".shipping").hide();
+                            $(".billing").show();
+                            $(".payment").hide();
+                            $(".btn2").hide();
+                            $(".btn4").show();
+                            $(".btn5").show();
+                        });
+                    }, false);
+                });
+            }, false);
+        })();
+    </script>
+</body>
+
+</html>
