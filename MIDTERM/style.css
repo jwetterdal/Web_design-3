@@ -1,0 +1,207 @@
+/* CSS Document */
+@charset "UTF-8";
+
+
+.navbar-brand img {
+    max-width: 150px;
+}
+
+.card-img, .card-img-top {
+    max-width: 80px;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif
+}
+
+.bg-white{
+    background-color: #FFFFFF;
+}
+
+.bg-red {
+    background-color: #E50914;
+}
+
+.red {
+    color: #E50914;
+}
+
+.carousel-caption {
+    font-family: 'Montserrat', sans-serif;
+
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family:  'Nunito Sans', sans-serif;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h3 {
+    margin: 30px 0px 30px 0px;
+}
+
+.custom-control {
+    margin-top: 15px;
+}
+
+/* unvisited link */
+a:link {
+    color: #E50914;
+}
+
+/* visited link */
+a:visited {
+    color: #E50914;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+}
+
+/* selected link */
+a:active {
+    color: #5398c9;
+}
+
+.alert {
+    margin: 0px;
+    text-align: justify;
+}
+
+.jumbotronservices {
+    background-image: url('../assets/images/services.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbotronteam {
+    background-image: url('../assets/images/team.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.carousel-caption {
+    margin-top: 10%;
+    transform: translateY(-70%);
+    bottom: 0;
+    top: 60%;
+}
+
+.bg-carousel1 {
+    background-image: url('slide3.jpg');
+}
+
+.bg-carousel2 {
+    background-image: url('slide2.jpg');
+}
+
+.bg-carousel3 {
+    background-image: url('slide1.jpg');
+}
+
+.bg-carousel1,
+.bg-carousel2,
+.bg-carousel3 {
+    height: calc(100vh - 56px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Icons */
+.card-footer i {
+    color: #83bee7;
+    font-size: 20px
+}
+
+.btn {
+    text-align: center;
+}
+
+.btn-outline-red {
+    color:  #83bee7 !important;
+    border-color:  #83bee7 !important;
+}
+
+.btn-red {
+    background-color: #83bee7 !important;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn-black {
+    background-color: black;
+}
+
+#icons ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex
+}
+
+.leftside,
+.rightside {
+    height: calc(100vh - 56px);
+    width: 100%;
+    color: #fff;
+    font-size: 40px;
+}
+
+.leftside {
+    background-image: url(../assets/images/about.jpg);
+    background-size: cover;
+}
+
+.rightside {
+    width: 100%;
+    background: black;
+    font-size: larger;
+    padding: 0px 70px 0px 70px;
+    text-align: center;
+}
+
+.downside {
+    height: 100vh;
+    font-size: larger;
+    color: #fff;
+    text-align: justify;
+}
+
+.margin {
+    padding: 25px 25px 25px 25px;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    .carousel-caption {
+        transform: translateY(-70%);
+        bottom: 0;
+        top: 60%;
+
+    }
+
+    .rightside {
+        padding: 0px 25px 0px 25px;
+    }
+}
+
+.concert {
+    overflow: hidden;
+    bottom: 0;
+    width: 100%;
+}
