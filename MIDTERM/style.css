@@ -49,12 +49,12 @@ h3 {
 
 /* unvisited link */
 a:link {
-    color: #E50914;
+    color:  #5398c9;
 }
 
 /* visited link */
 a:visited {
-    color: #E50914;
+    color:  #5398c9;
 }
 
 /* mouse over link */
@@ -163,7 +163,7 @@ a:active {
 
 .rightside {
     width: 100%;
-    background: black;
+    background: rgb(255, 255, 255);
     font-size: larger;
     padding: 0px 70px 0px 70px;
     text-align: center;
@@ -182,7 +182,6 @@ a:active {
 
 .card.h-100{
     border-style: none;
-
 
 }
 @media screen and (max-width: 768px) {
