@@ -180,6 +180,11 @@ a:active {
     padding: 25px 25px 25px 25px;
 }
 
+.card.h-100{
+    border-style: none;
+
+
+}
 @media screen and (max-width: 768px) {
     h1 {
         font-size: 30px;
