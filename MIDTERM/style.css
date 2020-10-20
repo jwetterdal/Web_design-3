@@ -167,6 +167,7 @@ a:active {
     display: inline-flex
 }
 
+
 .leftside,
 .rightside {
     height: calc(100vh - 56px);
