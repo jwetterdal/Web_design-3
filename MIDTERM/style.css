@@ -33,8 +33,6 @@ a {
 }
 
 
-
-}
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -225,7 +223,7 @@ a:active {
     }
 }
 
-.concert {
+.drone {
     overflow: hidden;
     bottom: 0;
     width: 100%;
