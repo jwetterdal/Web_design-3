@@ -6,6 +6,13 @@
     max-width: 100px;
 }
 
+.navbar {
+    opacity: 0.70;
+}
+
+.row.no-gutters {
+margin-top: 100px;
+}
 
 a {
     font-family: 'Montserrat', sans-serif
@@ -19,12 +26,13 @@ a {
     background-color: #E50914;
 }
 
-.red {
-    color: #E50914;
-}
 
 .carousel-caption {
     font-family: 'Montserrat', sans-serif;
+
+}
+
+
 
 }
 body {
@@ -39,14 +47,24 @@ h1 {
     font-size: 70px;
 }
 
+h1.display-3.text-light,text-center {
+margin-top: 60%;
+
+}
 h3 {
     margin: 30px 0px 30px 0px;
 }
+
 
 .custom-control {
     margin-top: 15px;
 }
 
+.modal-content {
+
+    background-color: #b8d2e4;
+    
+}
 /* unvisited link */
 a:link {
     color:  #5398c9;
@@ -79,9 +97,12 @@ a:active {
 }
 
 .jumbotronteam {
-    background-image: url('../assets/images/team.jpg');
+    background-image: url('team.png');
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height:400px;
 }
 
 
@@ -97,7 +118,7 @@ a:active {
 }
 
 .bg-carousel2 {
-    background-image: url('slide2.jpg');
+    background-image: url('header2.jpg');
 }
 
 .bg-carousel3 {
@@ -157,8 +178,11 @@ a:active {
 }
 
 .leftside {
-    background-image: url(../assets/images/about.jpg);
+    background-image: url(1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 
 .rightside {
