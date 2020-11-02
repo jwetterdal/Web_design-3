@@ -1,0 +1,70 @@
+/* CSS Document */
+@charset "UTF-8";
+
+body {
+    font-family: 'Quicksand', sans-serif; text-align: justify;
+background-color: #f7e0e7;
+}
+
+.navbar-brand img {
+    max-width: 200px;
+}
+
+.navbar-brand {
+    padding: 0;
+    transition: transform 0.5s ease-out;
+}
+
+.navbar-brand.is-active {
+    transform: skewX(-30deg);
+}
+
+.navbar {
+    padding-top: 0%;
+    height: 140px;
+}
+
+a{
+    transition: scale .5s ease-in-out;
+}
+
+/* unvisited link */
+a:link {
+    color: #32e6d3;
+    transition: 0.3s;
+}
+
+/* visited link */
+a:visited {
+    color:#f7e0e7;
+}
+
+/* mouse over link */
+#rotate:hover {
+    color: #b9de49;
+    transform: rotate(-20deg);
+}
+
+
+.blue {
+    color: #095190!important;
+}
+
+.orange {
+    color: #F86D94;
+}
+
+.bg-gradient {
+    background-color: white;
+    background-image: linear-gradient(#4f8dc4,#f7e0e7 80%);
+}
+
+.color {
+    transition: transform .5s, filter 1.5s ease-in-out;
+    filter: grayscale(100%);
+}
+
+.color:hover {
+    transform: scale(1.1);
+    filter: grayscale(100%);
+}
