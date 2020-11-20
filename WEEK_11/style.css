@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+
+
+body {
+    background: rgb(192, 115, 115);
+    background: radial-gradient(circle, rgb(245, 142, 142) 0%, rgb(120, 210, 233) 100%);    
+}
+
+canvas {
+  border: 6px solid #ffffff;
+  margin: 10px;
+}
+
+.title {
+  color: white;
+  font-family:  'Goldman', cursive;
+  font-size: 3rem;
+}
+
+#scoreCount {
+font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: 50px;
+}
+
+button {
+  display: inline-block;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: rgb(77, 75, 165);
+  background-color: white;
+  border-radius: 10px;
+  font-family:  'Roboto', sans-serif;
+}
+
+button:active {
+  background-color: #fff;
+  color: #fd91c7;
+  box-shadow: 0 5px 10px #ffa0a0;
+  /* transform: translateY(4px); */
+  font-family: 'Roboto', sans-serif;
+}
+
+#colorBtn {
+font-family: 'Roboto', sans-serif;
+}
