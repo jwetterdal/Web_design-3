@@ -6,6 +6,8 @@ body {
   background-color: rgb(224, 212, 212);
 }
 
+
+
 a {
     color: inherit;
   }
@@ -126,12 +128,18 @@ width: 30%;
   left: 26%;
 }
 
+.space-divider {
+    height: 30px;
+}
+
 .glow {
 
     opacity: 0;
     animation: appear 2s 2s linear;
     animation-fill-mode: forwards;
 }
+
+
 
 @keyframes appear {
   from {
@@ -152,9 +160,29 @@ width: 30%;
     margin-top: 50px;
 }
 
-.img.img-fluid:hover {
-    opacity: 50%;
-}
+
+/* JUMBOTRON */
+
+.jumbotron {
+    background-image: url(jumbastron.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+   height: 600px;
+  }
+
+  .jumbotron-1 {
+    background-image: url(https://media.giphy.com/media/CUQnDRHmaxfCEDXcTx/giphy.gif);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+   height: 600px;
+  }
+  
+  /* JUMBOTRON */
+
 /* CARD */
 
 #demo1 {
@@ -257,6 +285,8 @@ margin-top: 150px;
   animation-fill-mode: forwards;
 }
 
+
+
 @media screen and (max-width: 768px) {
   .highlight {
       position: absolute;
@@ -266,4 +296,14 @@ left: 8%;
      transform: translateY(-54%);
     }
 }
+
+
+@media (max-width: 800px) {
+    .row {
+      flex-direction: column-reverse;
+    }
+    .col-25 {
+      margin-bottom: 20px;
+    }
+  }
 
