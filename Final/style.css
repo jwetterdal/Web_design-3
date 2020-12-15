@@ -114,6 +114,48 @@ picture{
 width: 30%;
 }
 
+.img-fluid.mt-3 {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .img-fluid.mt-3-float-shadow:before {
+    pointer-events: none;
+    position: absolute;
+    z-index: -1;
+    content: '';
+    top: 100%;
+    left: 5%;
+    height: 10px;
+    width: 90%;
+    opacity: 0;
+    background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+    /* W3C */
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform, opacity;
+    transition-property: transform, opacity;
+  }
+  .img-fluid.mt-3:hover, .img-fluid.mt-3:focus, .img-fluid.mt-3:active {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+    /* move the element up by 5px */
+  }
+  .img-fluid.mt-3:before, .img-fluid.mt-3:before, .img-fluid.mt-3:active:before {
+    opacity: 1;
+    -webkit-transform: translateY(15px);
+    transform: translateY(15px);
+    /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
+  }
+
 .img-fluid.glow {
   max-width: 300px;
   border-style: none;
