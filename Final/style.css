@@ -166,7 +166,6 @@ width: 30%;
 .jumbotron {
     background-image: url(Jumbotron.png);
     background-position: center;
-    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
    height: 600px;
@@ -182,12 +181,12 @@ width: 30%;
   }
 
   .jumbotron-3{
-    background-image: url(jumbatron-3.png);
+    background-image: url(jumpatron-1.jpg);
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-   height: 600px;
+   height: 450px;
   }
   
   /* JUMBOTRON */
