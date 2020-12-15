@@ -53,7 +53,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
   }
 
 h6{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
 
 }
@@ -165,7 +165,7 @@ width: 30%;
 /* JUMBOTRON */
 
 .jumbotron {
-    background-image: url(jumbotron-2.png);
+    background-image: url(jum);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -223,7 +223,6 @@ margin-top: 150px;
   img {
     transition: transform 0.3s ease-in-out;
   }
-
 
 
   .card:hover img {
